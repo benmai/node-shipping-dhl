@@ -2,7 +2,7 @@
   "name": "shipping-dhl",
   "version": "0.0.0",
   "description": "DHL API bindings for Node.JS",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +13,10 @@
     "rates",
     "shipping"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benmai/node-shipping-dhl"
+  },
   "author": "benmai",
   "license": "MIT",
   "dependencies": {
